@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+  <div class="dashboard-container">
+
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img src="images/user-avatar.png" alt="User Avatar" class="user-avatar">
+        <h3 class="username">Admin User</h3>
+      </div>
+      <nav class="sidebar-nav">
+        <ul>
+          <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+          <li><a href="#"><i class="fas fa-users"></i> Users</a></li>
+          <li><a href="#"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+          <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="main-header">
+        <h1>Dashboard</h1>
+        <div class="header-actions">
+          <button class="notification-btn"><i class="fas fa-bell"></i> <span class="notification-count">3</span></button>
+          <button class="profile-btn"><i class="fas fa-user-circle"></i></button>
+        </div>
+      </header>
+
+      <section class="overview-boxes">
+        <div class="overview-box">
+          <h2>Total Users</h2>
+          <p>1,234</p>
+          <i class="fas fa-users"></i>
+        </div>
+        <div class="overview-box">
+          <h2>New Orders</h2>
+          <p>567</p>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="overview-box">
+          <h2>Revenue</h2>
+          <p>$8,901</p>
+          <i class="fas fa-dollar-sign"></i>
+        </div>
+      </section>
+
+      <section class="data-table">
+        <h2>Recent Transactions</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Transaction ID</th>
+              <th>User</th>
+              <th>Date</th>
+              <th>Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#12345</td>
+              <td>John Doe</td>
+              <td>2023-05-16</td>
+              <td>$100</td>
+              <td>Completed</td>
+            </tr>
+            <tr>
+              <td>#67890</td>
+              <td>Jane Smith</td>
+              <td>2023-05-15</td>
+              <td>$50</td>
+              <td>Pending</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>&copy; 2023 Admin Dashboard</p>
+    </footer>
+
+  </div> <!-- .dashboard-container -->
+
+  <!-- Font Awesome (replace with CDN or local installation) -->
+  <script src="https://kit.fontawesome.com/your_font_awesome_kit.js" crossorigin="anonymous"></script>
+</body>
+</html>

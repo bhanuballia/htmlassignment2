@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | InnovateTech Solutions</title>
+    <meta name="description" content="Contact InnovateTech Solutions for inquiries, support, and consultation. Fill out our advanced contact form or find our office hours.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Optional: Link to a font-awesome for icons, will be used in CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="InnovateTech Solutions Logo">
+                <span>InnovateTech Solutions</span>
+            </a>
+        </div>
+        <nav class="main-nav" aria-label="Main Navigation">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="contact.html" class="cta-button">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-main">
+        <section class="contact-section">
+            <div class="contact-info-container">
+                <h1 class="section-title">Get in Touch</h1>
+                <p class="section-subtitle">We're here to help and answer any question you might have. We look forward to hearing from you.</p>
+
+                <div class="contact-info">
+                    <div class="info-group">
+                        <h3>Our Office</h3>
+                        <address>
+                            InnovateTech Solutions<br>
+                            123 Digital Drive<br>
+                            Tech City, TC 12345<br>
+                            USA
+                        </address>
+                    </div>
+                    <div class="info-group">
+                        <h3>General Inquiries</h3>
+                        <p><strong>Email:</strong> <a href="mailto:info@innovatetech.com">info@innovatetech.com</a></p>
+                        <p><strong>Phone:</strong> <a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+                    </div>
+                </div>
+
+                <h3>Office Hours</h3>
+                <table class="office-hours-table">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday - Friday</td>
+                            <td>9:00 AM - 5:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Saturday</td>
+                            <td>9:00 AM - 1:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="contact-form-container">
+                <h2 class="section-title">Send us a Message</h2>
+                <form action="#" method="post" enctype="multipart/form-data" class="contact-form">
+                    
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <div class="form-group">
+                            <label for="full-name">Full Name<span class="required">*</span></label>
+                            <input type="text" id="full-name" name="full-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email<span class="required">*</span></label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company / Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Inquiry Details</legend>
+                        <div class="form-group">
+                            <label for="service-interest">Service Interest</label>
+                            <select id="service-interest" name="service-interest">
+                                <option value="">-- Please choose an option --</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="mobile-apps">Mobile Apps</option>
+                                <option value="consulting">Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <p>Project Timeline</p>
+                            <div class="radio-group">
+                                <input type="radio" id="timeline-asap" name="project-timeline" value="asap">
+                                <label for="timeline-asap">ASAP</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" id="timeline-1-3" name="project-timeline" value="1-3-months">
+                                <label for="timeline-1-3">1-3 months</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" id="timeline-3-6" name="project-timeline" value="3-6-months">
+                                <label for="timeline-3-6">3-6 months</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" id="timeline-6-plus" name="project-timeline" value="6-plus-months">
+                                <label for="timeline-6-plus">6+ months</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Budget Range</label>
+                            <input type="range" id="budget" name="budget" min="1000" max="100000" value="50000" step="1000">
+                            <div class="budget-labels">
+                                <span>$1,000</span>
+                                <span>$100,000+</span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p>Project Type</p>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="type-new-website" name="project-type" value="new-website">
+                                <label for="type-new-website">New Website</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="type-redesign" name="project-type" value="redesign">
+                                <label for="type-redesign">Redesign</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="type-mobile-app" name="project-type" value="mobile-app">
+                                <label for="type-mobile-app">Mobile App</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="type-e-commerce" name="project-type" value="e-commerce">
+                                <label for="type-e-commerce">E-commerce</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="type-other" name="project-type" value="other">
+                                <label for="type-other">Other</label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Message</legend>
+                        <div class="form-group">
+                            <label for="project-description">Project Description<span class="required">*</span></label>
+                            <textarea id="project-description" name="project-description" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="file-upload">Upload Requirements (Documents only)</label>
+                            <input type="file" id="file-upload" name="file-upload" accept=".pdf,.doc,.docx,.txt">
+                        </div>
+                        <div class="form-group">
+                            <p>Preferred Contact Method</p>
+                            <div class="radio-group">
+                                <input type="radio" id="contact-email" name="contact-method" value="email">
+                                <label for="contact-email">Email</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                                <label for="contact-phone">Phone</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" id="contact-video" name="contact-method" value="video-call">
+                                <label for="contact-video">Video Call</label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Terms & Newsletter</legend>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="terms-agree" name="terms-agree" required>
+                            <label for="terms-agree">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a><span class="required">*</span></label>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="newsletter-subscribe" name="newsletter-subscribe">
+                            <label for="newsletter-subscribe">Subscribe to our newsletter</label>
+                        </div>
+                    </fieldset>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="cta-button primary">Submit</button>
+                        <button type="reset" class="cta-button secondary">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-info">
+                <h3>InnovateTech Solutions</h3>
+                <address>
+                    123 Digital Drive<br>
+                    Tech City, TC 12345<br>
+                    USA
+                </address>
+                <p>Email: <a href="mailto:info@innovatetech.com">info@innovatetech.com</a></p>
+                <p>Phone: <a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+            </div>
+            <div class="footer-social">
+                <h3>Connect With Us</h3>
+                <a href="#" aria-label="InnovateTech on Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="InnovateTech on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="InnovateTech on Facebook"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; <span id="currentYear"></span> InnovateTech Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
